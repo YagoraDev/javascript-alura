@@ -1,5 +1,14 @@
 /* 
 
+Estrutura       	                    Quando usar	                                                   Pode acessar índice?
+for	                    Quando precisa do índice ou controle manual do laço	                                    Sim
+for...of	          Quando quer apenas os valores, sem se preocupar com a posição	                      Não diretamente
+forEach()	         Quando quer executar algo para cada item, sem precisar de retorno	                 Sim (2º parâmetro)
+
+*/
+
+/* 
+
 O QUE SÃO ARRAYS?
 
 Arrays são coleções ordenadas de valores.
